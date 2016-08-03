@@ -1,0 +1,179 @@
+<!DOCTYPE html >
+<html>
+
+
+<!-- Mirrored from all.pommodoro.free.fr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jul 2016 18:45:45 GMT -->
+<head>
+	<meta charset="UTF-8"/>
+	<title>All Pommodoro</title>
+	<link href="style.css" rel="stylesheet" media="all" type="text/css"> 
+	<META NAME="Description" CONTENT="Situé depuis une quinzaine d'année au 155 Rue Nationale, au croisement de la rue du Faisan, le restaurant All Pommodoro est un restaurant proposant des spécialités italiennes.">
+    <META NAME="Keywords" CONTENT="pizza, pizzas, pates, lille, Lille, pizzeria, pizzerias, vénitien,restaurant,Pommodoro, All Pommodoro">
+	<META NAME="Robots" CONTENT="all">
+	
+</head>
+<body>
+	<div align="center">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="background-image:url(bg2.png);width:16px">
+					</td>
+						<td style ="width:1000px; background-color:#FFFFFF">
+							<table cellpadding ="0" cellspacing="0">
+							
+								<tr>
+									<td style="background-image:url(ban.png);height:200px;width:1000px;">
+									</td>
+								</tr>
+								<tr>
+								<table cellpadding ="0" cellspacing="0" width="1000px" style="vertical-align:top">
+								
+									<td align="center" width="100">
+										<h3>Menu</h3>
+											<ul>
+												<li><a href="index-2.html">Accueil</a></li>
+												<li><a href="carte_pizza_plats.html">Notre Carte</a></li>
+												<li><a href="nous_contacter.html">Nous retrouver</a></li>
+												<li><a href="Nouscontacter%2bformulaire.html">Contact</a></li>
+												
+											</ul>
+									</td>
+									
+									<td>
+									<p align ="lef">
+										Situé depuis une quinzaine d'année au 155 Rue Nationale, au croisement de la rue du Faisan, le restaurant All Pommodoro est un restaurant proposant des spécialités italiennes. Vous y retrouverez tout ce qui se rattache aux plats typiques italiens de l'Escalope Parmigiana à la fameuse pizza. Le restaurant propose alors un large choix de plats (viandes, pâtes ou salades) à des prix raisonnables. Le restaurant All Pommodoro se démarque des pizzerias du secteur avec de grandes pizzas à emporter (30cm) à des prix très attractifs (6.50€). Le personnel saura vous accueillir dans une ambiance conviviale et chaleureuse idéale pour passer un agréable moment autour d'un savoureux plat. Des plats généreux, un service rapide et des tarifs abordables pour tout public.
+									</p>
+									<table cellpadding ="0" cellspacing="0">
+									<td align="center" width="160" >
+									</td>
+									<td  align="center"  >
+									<div id="bg" align="center">
+										<img id="tab1" src="1.jpg"/>
+										<img id="tab2" src="2.jpg"/>
+										<img id="tab3" src="3.jpg"/>
+										<img id="tab4" src="4.jpg"/>
+										<img id="tab5" src="5.jpg"/>
+									</div>
+									<script type="text/javascript" src="../code.jquery.com/jquery-1.8.2.min.js"></script>
+									<script>
+										var stream_tab = {
+										  
+											nbSlide : 0,
+											nbCurrent : 1,
+											elemCurrent : null,
+											elem : null,
+											timer : null,
+											
+										  
+											init : function(elem){
+												this.nbSlide = elem.find("img").length;
+										 
+												// Initiation du stream_tab
+												this.elem=elem;
+												elem.find("img").hide();
+												elem.find("img:first").show();
+												this.elemCurrent = elem.find("img:first");
+										  
+												// Timer
+												this.timer = window.setInterval("stream_tab.next()",2000);
+											},
+										  
+											gotoSlide : function(num){
+												if(num==this.nbCurrent){return false;}
+												$('#tab'+(num-1)).fadeOut();
+												this.elem.find("#tab"+num).fadeIn();
+												this.nbCurrent = num;
+												
+											},
+																			  
+										
+											next : function(){
+												var num = this.nbCurrent+1;
+												
+												if(num > this.nbSlide+1){
+													num = 1;
+												}
+												
+												this.gotoSlide(num);
+												
+											},
+										  
+										  													  
+										}
+										  
+										$(function(){
+											stream_tab.init($("#bg"));
+										});
+									</script>
+									</td>
+									</table>
+									</td>
+									<td align=center width="200" >
+									
+									<fieldset>
+									<legend>Nous contacter</legend>
+		
+										<b>Adresse: </b> <br/>
+										155 Rue Nationale<br/>
+										59800 Lille<br/>
+										<br/>
+										<b>Num&eacute;ro de t&eacute;l&eacute;phone:</b> <br/>
+										03 20 54 50 59<br/>
+										<br/>
+										<b> Horaires: </b>
+										11h30-14h30<br/>
+										19h00-23h00<br/>
+									</fieldset>
+										
+									
+									
+									</td>
+									
+									
+									
+								</tr>
+														
+								</table>
+								
+								<table cellpadding ="0" cellspacing="0">
+								<td align=center width="360" >
+								
+								</td>
+								<td  align=center width="320" height="100" >
+								
+								</td>
+								<td align=center width="320">
+								</td>
+								</table>
+								
+								
+								<table>
+								<td align=center width="250">
+								</td>
+								<td  align=center width="500" >
+								<h6>All Pommodoro, <a href="index-2.html">Acceuil</a> , <a href="carte_pizza_plats.html">Notre Carte</a> , <a href="nous_contacter.html">Nous retrouver</a> , <a href="Nouscontacter%2bformulaire.html">Contact</a> , <a href="mdp.html">Admin</a> réalisé par: Léa BOBIN, Maxime DENIS, Caroline LECORRE</h6>
+								</td>
+								<td align=center width="250">
+								</td>
+								</table>
+							
+						</td>
+								
+						<td style="background-image:url(bd3.png);width:16px"></td>
+				</tr>
+				
+				
+				
+								<tr>
+									<td colspan="3" style="background-image:url(bas2.png);width:1032px;height:30px;"></td>
+								</tr>
+							</table>
+	
+					
+			</table>
+		 
+	 </div>
+</body>
+
+<!-- Mirrored from all.pommodoro.free.fr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jul 2016 18:45:45 GMT -->
+</html>
